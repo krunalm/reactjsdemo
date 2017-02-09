@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8BADFFA8-9F20-4BD8-84A8-9885F05B477A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{28ED1D99-C259-4D49-B4A5-C635AC53D811}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ReactDemo", "src\ReactDemo\ReactDemo.xproj", "{151C74D6-C1D4-4431-BA1A-AABD5060F148}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{151C74D6-C1D4-4431-BA1A-AABD5060F148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{151C74D6-C1D4-4431-BA1A-AABD5060F148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{151C74D6-C1D4-4431-BA1A-AABD5060F148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{151C74D6-C1D4-4431-BA1A-AABD5060F148}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{151C74D6-C1D4-4431-BA1A-AABD5060F148} = {8BADFFA8-9F20-4BD8-84A8-9885F05B477A}
+	EndGlobalSection
+EndGlobal
